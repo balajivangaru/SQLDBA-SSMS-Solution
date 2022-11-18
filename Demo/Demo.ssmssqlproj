@@ -15,13 +15,25 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
-        <ConnectionNode Name="localhost:21L-LTPABL-1187\Ajay">
+        <ConnectionNode Name="localhost:WHQ_NT_DOMAIN\VC092701">
           <Created>2022-07-31T11:35:49.6119711+05:30</Created>
           <Type>SQL</Type>
           <Server>localhost</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
           <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="REVTOOLSDEV:WHQ_NT_DOMAIN\VC092701">
+          <Created>2022-11-18T18:47:06.18756+05:30</Created>
+          <Type>SQL</Type>
+          <Server>REVTOOLSDEV</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
           <LoginTimeout>30</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
@@ -120,6 +132,12 @@
           <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>QRY-Demo-NOLOCK-StackOverflow.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Test.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:REVTOOLSDEV:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>REVTOOLSDEV</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Test.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
